@@ -1,9 +1,15 @@
 {
-  "name": "@whiterock/styled-widgets",
+  "name": "@whiterok/wr-styled-widgets",
   "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
+  "contributors": ["VenkiGovind"],
+  "homepage": "https://github.com/VenkiGovind/wr-styled-widgets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VenkiGovind/wr-styled-widgets"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "styled-components": "^5.1.1"
