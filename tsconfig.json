@@ -1,14 +1,30 @@
 {
-  "extends": "../../tsconfig.base.json",
-  "compilerOptions": {
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "es2016",
+      "module": "commonjs",
+      "lib": ["ESNext", "dom"],
+  
+      /* Strict Type-Checking Options */
+      "strict": true,
+  
+      /* Module Resolution Options */
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "jsx": "react",
+      "baseUrl": "./",
+      /* Advanced Options */
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+
       "declaration": true,
       "declarationMap": true,
       "sourceMap": true,
       "composite": true,
       "outDir": "lib",
       "rootDir": "src"
-  },
-  "include": [
-    "src"
-  ]
-}
+    },
+    "include": [
+      "src"
+    ]
+  }
